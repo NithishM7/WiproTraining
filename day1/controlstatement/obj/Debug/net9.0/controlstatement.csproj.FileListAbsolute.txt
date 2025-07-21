@@ -1,0 +1,14 @@
+C:\Users\Nithish.M\Hello\day1\controlstatement\bin\Debug\net9.0\controlstatement.exe
+C:\Users\Nithish.M\Hello\day1\controlstatement\bin\Debug\net9.0\controlstatement.deps.json
+C:\Users\Nithish.M\Hello\day1\controlstatement\bin\Debug\net9.0\controlstatement.runtimeconfig.json
+C:\Users\Nithish.M\Hello\day1\controlstatement\bin\Debug\net9.0\controlstatement.dll
+C:\Users\Nithish.M\Hello\day1\controlstatement\bin\Debug\net9.0\controlstatement.pdb
+C:\Users\Nithish.M\Hello\day1\controlstatement\obj\Debug\net9.0\controlstatement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nithish.M\Hello\day1\controlstatement\obj\Debug\net9.0\controlstatement.AssemblyInfoInputs.cache
+C:\Users\Nithish.M\Hello\day1\controlstatement\obj\Debug\net9.0\controlstatement.AssemblyInfo.cs
+C:\Users\Nithish.M\Hello\day1\controlstatement\obj\Debug\net9.0\controlstatement.csproj.CoreCompileInputs.cache
+C:\Users\Nithish.M\Hello\day1\controlstatement\obj\Debug\net9.0\controlstatement.dll
+C:\Users\Nithish.M\Hello\day1\controlstatement\obj\Debug\net9.0\refint\controlstatement.dll
+C:\Users\Nithish.M\Hello\day1\controlstatement\obj\Debug\net9.0\controlstatement.pdb
+C:\Users\Nithish.M\Hello\day1\controlstatement\obj\Debug\net9.0\controlstatement.genruntimeconfig.cache
+C:\Users\Nithish.M\Hello\day1\controlstatement\obj\Debug\net9.0\ref\controlstatement.dll

@@ -1,0 +1,14 @@
+C:\Users\Nithish.M\Hello\day1\bin\Debug\net9.0\day1.exe
+C:\Users\Nithish.M\Hello\day1\bin\Debug\net9.0\day1.deps.json
+C:\Users\Nithish.M\Hello\day1\bin\Debug\net9.0\day1.runtimeconfig.json
+C:\Users\Nithish.M\Hello\day1\bin\Debug\net9.0\day1.dll
+C:\Users\Nithish.M\Hello\day1\bin\Debug\net9.0\day1.pdb
+C:\Users\Nithish.M\Hello\day1\obj\Debug\net9.0\day1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nithish.M\Hello\day1\obj\Debug\net9.0\day1.AssemblyInfoInputs.cache
+C:\Users\Nithish.M\Hello\day1\obj\Debug\net9.0\day1.AssemblyInfo.cs
+C:\Users\Nithish.M\Hello\day1\obj\Debug\net9.0\day1.csproj.CoreCompileInputs.cache
+C:\Users\Nithish.M\Hello\day1\obj\Debug\net9.0\day1.dll
+C:\Users\Nithish.M\Hello\day1\obj\Debug\net9.0\refint\day1.dll
+C:\Users\Nithish.M\Hello\day1\obj\Debug\net9.0\day1.pdb
+C:\Users\Nithish.M\Hello\day1\obj\Debug\net9.0\day1.genruntimeconfig.cache
+C:\Users\Nithish.M\Hello\day1\obj\Debug\net9.0\ref\day1.dll

@@ -1,0 +1,14 @@
+D:\WiproTraining\Day5\Collections\bin\Debug\net9.0\Collections.exe
+D:\WiproTraining\Day5\Collections\bin\Debug\net9.0\Collections.deps.json
+D:\WiproTraining\Day5\Collections\bin\Debug\net9.0\Collections.runtimeconfig.json
+D:\WiproTraining\Day5\Collections\bin\Debug\net9.0\Collections.dll
+D:\WiproTraining\Day5\Collections\bin\Debug\net9.0\Collections.pdb
+D:\WiproTraining\Day5\Collections\obj\Debug\net9.0\Collections.GeneratedMSBuildEditorConfig.editorconfig
+D:\WiproTraining\Day5\Collections\obj\Debug\net9.0\Collections.AssemblyInfoInputs.cache
+D:\WiproTraining\Day5\Collections\obj\Debug\net9.0\Collections.AssemblyInfo.cs
+D:\WiproTraining\Day5\Collections\obj\Debug\net9.0\Collections.csproj.CoreCompileInputs.cache
+D:\WiproTraining\Day5\Collections\obj\Debug\net9.0\Collections.dll
+D:\WiproTraining\Day5\Collections\obj\Debug\net9.0\refint\Collections.dll
+D:\WiproTraining\Day5\Collections\obj\Debug\net9.0\Collections.pdb
+D:\WiproTraining\Day5\Collections\obj\Debug\net9.0\Collections.genruntimeconfig.cache
+D:\WiproTraining\Day5\Collections\obj\Debug\net9.0\ref\Collections.dll

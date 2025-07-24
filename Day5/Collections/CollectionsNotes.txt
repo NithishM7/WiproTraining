@@ -1,0 +1,34 @@
+Disadvantages of using Arrays in C#:
+
+1. array size is fixed
+2. we can store similar type of elements
+3. as we know the array size is fixed so, if we allocate more memory then it will go waste even if there is no replacement
+if we allocate less memory that it will create a problem.
+4) We cannot insert an element into the middle of an array.
+4) Searching based linear approach and if we have a large list
+
+Collections - It represents the group of objects
+
+Collections gives an advantage over an Arrays
+
+1) It is dynamic in nature
+2) group of records / objects for which we are treating it as a one single unit
+
+They are the part of System.Collections and System.Collections.Generic namespaces
+
+Non-generic type of collections:
+
+ArrayList -- which is a resizable array(Stores object)
+HashTable -- key-Value pair, unordered
+Stack -- LIFO structure
+Queue -- FIFO structure
+
+List 1 = new ArrayList();
+disadvantage -- No Type safety and no of timme it requires
+
+Generic type of collections
+List<T> Daynamic array of a specific type(Integer, String)
+Dictionary<K,V> - storing the key-value storage
+HashSet<T> No duplicate allowed
+Queue<T> FIFO
+Stack<T> LIFO

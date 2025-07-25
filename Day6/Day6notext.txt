@@ -1,0 +1,150 @@
+Non Generic
+
+boxing/unboxing
+
+boxing :- When we convert a vlaue type(like int) into an object type(reference type)
+
+int num value1 = 10;
+object boxedvalue = num; // boxing
+
+Unboxing :- When we extract the value type from an object
+
+int valuetype = (int)boxedvalue;  //unboxing
+
+These operations are expensive in performance :- then there will be a memory overhead. This is one type-safe because by mistaken wrong can be done which may cause a run time error
+
+List<Student> list = new List<Student>();
+
+for(int i=0;i<5;i++)
+{
+    Student s = new Student(3434,"abc");
+    list.Add(s);
+}
+
+List<int> numbers = new List<int>();
+numbers.Add(20);     // No boxing
+
+// Non-Generic
+List numbers = new List();
+numbers.Add(10);   //No boxing
+int result = numbers[0];    // No Unboxing 
+
+c# provides some wrapper classes
+
+wrapper class is a class that wraps vlaue types to provide some extra funcitonalities
+System.Object which is a universal 
+
+int ---- System.Int32 -- wraps -- value types which is int 00 Generic class for type safety at compitle time only you are teeling to compiler tht internally 
+
+
+double --- System.Double -- wraps -- value type which is Double 
+Whenver we are boxing to an int, interanlly it is converting it into System.Object but interanlly it uses System.Int32
+
+
+ArrayList  list = new ArrayList();
+list.Add(56);
+string name = (string)list[0];    //unboxing
+It will work it shows some warning and it give a run tiem error.
+
+int x = 5;
+object obj = x;
+int y = (int)obj;   // Boxing
+
+ArrayList
+List<int>  -- strict type safety 
+List<object>
+
+File Handling -- 
+
+Input stream and output stream
+
+Stream -- It is an representation of a sequence of data or bytes that flows from one 
+
+Console.ReadLine(); --> Input Stream -- Keyboard
+
+Stream or a pipe (where your data flows) -- save your data into a file(File Input stream(Reading) and File output stream)
+
+Console.WriteLine(); --> Output Stream -- Output devices -- Montior
+
+Input stream -- Reading the data from the file or Keyboard
+Output stream -- Writing the data to a file or on Console
+File Stream -- which is used to read/write to files(files based)
+Memory Sream -- Read / write the data in memory(RAM) not a file.
+Network Stream - TCP/IP -- which will transfer the data over a network
+
+FileStream fs = new FileStream("datafile.txt",FileMode.Create);
+
+Keyboard -- InputStream ---> To your app -- Output Stream ---> File / Console
+After this you can pass this file to
+StreamReader
+StreamWriter
+BinaryReader
+BinaryWriter
+
+Stream input = Console.OpenStandardInput();
+StreamReader reader = new StreamReader(input);
+
+string line = reader.ReadLine();
+Console.WriteLine(line);
+
+Stream output = Console.OpenStandardOutput();
+StreamWriter writer = new StreamWriter(output);
+
+
+Operations on a file:
+Create
+Write
+Append
+Read
+Delete
+Copy
+Move
+
+File stream we are using for logging purpose
+
+We want to simultae a log system()
+
+create a file
+write some logs
+append new logs
+read logs
+backup (copy)
+Delete
+Move
+
+Different way to work with files
+1.StreamReader -- reading the text file
+2.StreamWriter -- writing the text file (PrintStream)
+3.FileStream -- to read Binary Files
+4.FileStream -- to write Binary Files
+5.StreamReader -- auto buffered
+
+two types of files
+Binary -- bytes
+Text -- human can understand UTF-8/ASCII 
+
+An exception is a runtime errors that disrupts the normal flow of you program. It occurs when something goes wrong.
+
+Divide by zero, file not found.
+
+Compile time errors and run time errors
+syntax error, type mismatch, punctuation, semicolon, spacing (during build time)
+
+
+Error vs exception
+Error may cause serious issues also like infinite loop, blue screen code which is unrecoverable the programmer or developer can't handle, out of memory 
+
+Exception:- can be handled gracefully and manageable
+
+Errors occured during compile time or when system crashes
+Exceptions : Run time
+Some of the exception are filenotfound, indexoutofrange
+
+Exceptions can be handled using try and catch
+
+try{ //Business logic }
+// no statement
+
+catch{}{// to handler (its handle the error and who is going to catch the exception)}
+
+finally{// optional code that always be executed whether there is an excepiton or not generally used for closing all the resources}
